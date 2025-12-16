@@ -1,8 +1,6 @@
-let name = 'Kabir'
+// Working with ES6 modules using import
 
-function displayName(){
-
-    console.log(name)
+export function display()
+{
+    console.log("This is one.js file");
 }
-
-displayName()
